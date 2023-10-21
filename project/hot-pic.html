@@ -5,7 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OnePlaus</title>
     <style>
-        *{font-family: 
+        *{
+            margin: 0;
+            padding: 0%;
+        }
+        .h-w{
+            height: 100%;
+            width: 100%;
+        }
+        {font-family: 
 
         'OnePlus Sans Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif, system-ui;
             margin: 0;
@@ -17,38 +25,227 @@
         }
     #hot-pic{
         width: 100%;
-        height: 500px;
-        /* border: 5px solid red; */
-        padding-top: 30px;}
+        height: 800px;
+         /* border: 5px solid red;   */
+         
+        }
+    #hot-one{
+        height: 30px;
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+        /* border: 5px solid red ; */
+        padding-top: 30px;
+        color:rgb(107, 86, 86);
+        font-size: 20px;
+        border-bottom: 2px solid rgb(240, 228, 228);
         
+    }
+    #hot-two{
+        height:35px ;
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+        padding-top: 20px;
+        font-size: 20px;
+     /* border: 5px solid blue; */
+        
+    }
+    #hot-two>div{
+        height:35px ;
+        /* border: 1px solid green; */
+        display: flex;
+        justify-content: space-between;
+        margin-right: 50%;
+    }
+    #mobile-pic{
+        margin-top: 20px;
+        width: 100%;
+        height: 500px;
+        /* border: 5px solid red;   */
+  
+    }
+    #mobile-pic>div{
+        width: 90%;
+        height: 500px;
+         /* border: 5px solid blue;   */
+         margin: auto;
+         display: flex;
+         justify-content: space-around;
+
+    }
+    #pic>div{
+        width: 24%;
+        height: 100%;
+        /* border: 5px solid yellowgreen; */
+
+    }
+    #pic>div>div{
+        height: 40%;
+        /* border: 5px solid red;  */
+        flex-direction: column;
+        }
+        
+     #pic>div>:nth-child(1){
+        height: 65%;
+
+        /* border: 5px solid yellowgreen; */
+        background-color: rgb(254, 227, 195);
+     }
     
+      
 
+    
+    .f-z>div:nth-child(1)>p{
+        padding-top: 25px; 
+        font-size: 25px;
+        /* color: green; */
+    }
+    .f-z>div:nth-child(2)>p{
+        padding-top: 8px;
+        /* color:blue; */
+        font-size: 15px;
+    }
+    .f-z>div:nth-child(3)>p{
+         padding-top: 8px; 
+        font-size: 20px;
+    }
+    .f-z>div:nth-child(4){
+        margin-top: 49px;
+    }
+    .f-z>div:nth-child(4)>button{
+        width: 100%;
+        height: 40px;
+       background-color: white;
+       
+       
+    }
 
- #footer{
+ /* #footer{
     width: 100%;
     border: 5px solid red;  
     height: 600px;
-} 
+}  */
 
    </style>
 </head>
 <body>
     <div id="hot-pic">
-        <div id="hot-one">
-            <p> This Week’s Hot Picks</p>
-        </div>
-    <div id="hot-two">
-         <div>Highlights</div>
-         <div> Phones</div>
-         <div>TV & Display</div>
-         <div>Audio</div>
-         <div>Wearables</div>
-         <div> Accessories</div>
+         <div id="hot-one">
+            <div>
+                <p>This Week’s Hot Picks</p>
+            </div>
+         </div> 
+         <div id="hot-two">
+            <div>
+                <div>Highlight</div>
+                <div>Phones</div>
+                <div>TV & Display</div>
+                <div>Audio</div>
+                 <div>Wearables</div>
+                <div>Accessories</div>
+            </div>
+            </div>
+
+
+         <div id="mobile-pic">
+            <div id="pic">
+                <div>
+                     <div>
+                        <img class="h-w" src="https://image01-in.oneplus.net/ebp/202303/29/1-m00-50-fd-cpgm7wqj5riagurqaakzkxnnips198.png" alt="error"/>
+                     </div>
+                     <div class="f-z">
+                        <div>
+                            <p>OnePlus Nord CE 3 Lite 5G</p>
+                        </div>
+                        <div>
+                            <p>Save with RedCoins</p>
+                        </div>
+                            
+                            <div>
+                                <p>Save ₹500 with coupon</p>
+                            </div>
+                        <div>
+                            <button>From ₹19,999</button>
+                        </div>
+                     </div>
+                </div>
+
+                 <div>
+                    <div>
+                        <img class="h-w" src="https://image01-in.oneplus.net/ebp/202302/08/1-m00-4e-16-cpgm7mpjxnoabtqjaah4p22vdfq137.png" alt="error"/>
+                    </div>
+                    <div class="f-z">
+                        <div>
+                            <p>OnePlus Nord CE 3 Lite 5G</p>
+                        </div>
+                        <div>
+                            <p>Save with RedCoins</p>
+                        </div>
+                            
+                            <div>
+                                <p>Save ₹500 with coupon</p>
+                            </div>
+                        <div>
+                            <button>From ₹19,999</button>
+                        </div>
+                    </div>
+                 </div>
+                 <div>
+                    <div>
+                        <img class="h-w" src="https://image01-in.oneplus.net/ebp/202303/28/1-m00-50-fb-cpgm7wqiw0kacxzxaaj0aogerf8199.png" alt="error"/>
+                    </div>
+                    
+                        <div class="f-z">
+                            <div>
+                                <p>OnePlus Nord CE 3 Lite 5G</p>
+                            </div>
+                            <div>
+                                <p>Save with RedCoins</p>
+                            </div>
+                                
+                                <div>
+                                    <p>Save ₹500 with coupon</p>
+                                </div>
+                            <div>
+                                <button>From ₹19,999</button>
+                            </div>
+                        
+                    </div>
+                 </div>
+                 <div>
+                    <div>
+                        <img class="h-w" src="https://image01-in.oneplus.net/ebp/202304/13/1-m00-51-1b-cpgm7wq35waawfbbaas0vraswfq234.png" alt="error"/>
+                    </div>
+                    
+                        <div class="f-z">
+                            <div>
+                                <p>OnePlus Nord CE 3 Lite 5G</p>
+                            </div>
+                            <div>
+                                <p>Save with RedCoins</p>
+                            </div>
+                                
+                                <div>
+                                    <p>Save ₹500 with coupon</p>
+                                </div>
+                            <div>
+                                <button>From ₹19,999</button>
+                            </div>
+                        </div>
+                         
+                    
+                 </div>
+             </div>  
+         </div>
+            
+         
+    
     </div>
-    <div id="mobile-pic" >
+    
         
         
-               <div id="footer"></div>
+    <!-- <div id="footer">footer</div> -->
            
     </div>
 </body>
