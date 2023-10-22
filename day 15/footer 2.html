@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>footer</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0%;
+        }
      
      #footer{
-        /* border: 5px solid red; */
+         /* border: 5px solid red;  */
         width: 100%;
-        height:1000px;
+        height:500px;
          background-color: black;
         color: white;
         padding-top: 50px;
@@ -17,32 +21,77 @@
         
      }
      #footer>div{
-        width: 99%;
-        height: 90%;
-        margin: auto;
-        margin-top: 27px;
-        /* border: 5px solid green;  */
+        width: 90%;
+        height: 500px;
+        margin-top: 25px;
+        /* border: 5px solid green;   */
         display: flex;
         justify-content: space-around;
+        margin: auto;
         
         
      }
      #footer>div>div{
-         /* border: 5px solid blue;  */
-        height: 530px;
+        /* border: 5px solid blue;   */
         width: 100%;
-        margin-left: 55px;
+        
+        
      }
      #footer>div>div>div{
-         /* border: 5px solid blue;   */
-        font-size: 15px;
-        height: 500px;
+         /* border: 5px solid green;   */
+        font-size: 14px;
+        height: 400px;
         width: 100%;
+        margin-top: 20px;
         color: rgb(114, 110, 110);
+        line-height: 35px;
 
      }
+    #cards{
+        /* border: 5px solid green;  */
+        width: 100%;
+        height: 500px;
+        background-color: black;
+        color: rgb(114, 110, 110);
+        
+    }
+    #cards>div{
+        /* border: 5px solid red; */
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #cards>div>div:nth-child(1){
+        width: 50%;
+        height: 30px;
+        /* border: 5px solid goldenrod; */
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+        margin-left: 15px;
+        border-bottom: 1px solid rgb(124, 101, 101);
+        
 
-      
+    }
+    #cards>div>div:nth-child(2){
+        width: 50%;
+        height: 30px;
+        /* border: 5px solid yellow; */
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin-top: 50px;
+        border-bottom: 1px solid rgb(124, 101, 101);
+        
+    }
+    #cards>div>div:nth-child(2)>div>p{
+        /* border: 5px solid red; */
+        margin-left: 500px;
+    }
+    
+    
+    
 
 
     </style>
@@ -54,7 +103,7 @@
             <div>
                 <h4>Phones </h4>
                 <div>
-                    <p>OnePlus Open></p>
+                    <p>OnePlus Open</p>
                     <p>OnePlus 9R 5G</p>
                     <p> OnePlus 11 5G</p>
                     <p> OnePlus 11R 5G</p>
@@ -124,12 +173,7 @@
                     </div>
 
 
-                    <div>
-                        
-                            <p><i class="fa-brands fa-facebook"></i><p>
-                            
                     
-                        <div>Get Support From OnePlus</div>
                         
                     </div> 
                     
@@ -138,9 +182,26 @@
                    
         </div>
          
-             
-         
-                
+    </div>
+
+
+    <div id="cards">
+        <div>
+            <div>
+                <div>Credit/Debit Card</div>
+                <div>NetBanking</div>
+                <div>EMI</div>
+                <div>Wallet</div>
+
+            </div>
+
+            <div>
+                <div>
+                    <p>Get Support From OnePlus</p>
+                </div>
+            </div>
+            
+        </div>
     </div>
 </body>
 </html>
