@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnePlus Ensemble</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+        .h-w{
+            height: 100%;
+            width: 100%;
+        }
+        
+     #parent{
+        width: 100%;
+        height:700px;
+        /* border: 5px solid red; */
+        background-color: black;
+        color: white;
+     }
+     #parent>div{
+        width: 100%;
+        height:600px;
+        /* border: 5px solid blue; */
+        
+        
+     }
+     #oneplaus-Ensemble{
+        /* border: 5px solid green; */
+        width: 100%;
+        height: 100%;
+        display: flex;
+        padding-top: 30px;
+        background-color: black;
+    }
+   
+    #oneplaus-Ensemble>div:nth-child(1){
+        /* border: 5px solid greenyellow; */
+        width: 40%;
+        height: 450px;
+        margin: auto;
+        margin-left:47px ;
+    }
+    #oneplaus-Ensemble>div:nth-child(2){
+        /* border: 5px solid blue; */
+        width:55%;
+        height: 450px;
+        margin: auto; 
+    }
+    #oneplaus-Ensemble>div:nth-child(2)>img:hover{
+        scale: 1.05;
+    }
+    
+     #upper>div:nth-child(1){
+        /* color: blue; */
+        font-size:27px ;
+        margin-top:20px ;
+    }
+    #upper>div:nth-child(2){
+        font-size:64px;
+        margin-top: 10px;
+    }
+    #lower{
+        margin-top: 30%;
+    }
+    #lower>p{
+        /* border: 5px solid red; */
+        
+        font-size: 15px;
+    }
+    #lower>div>p{
+        /* color: blueviolet; */
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    #lower>div>button{
+        font-size: 14px;
+        height: 40px;
+       width:36%;
+       margin-top: 20px;
+       border-radius: 3px;
+    }
+    #OnePlus-Featuring{
+        /* border: 5px solid yellow; */
+        height: 50px;
+        width: 100%;
+       
+    }
+    #OnePlus-Featuring>div{
+        /* border: 5px solid burlywood; */
+        height: 30px;
+        width: 90%;
+        margin-left: 65px;
+        border-bottom: 1px solid rgb(127, 108, 108);
+    }
+    #OnePlus-Featuring>div>p{
+        font-size: 20px;
+        
+    }
+    @media screen and (max-width:650px ){
+        #oneplaus-Ensemble{
+            height: 800px;
+            flex-direction: column;
+            /* border: 3px solid blue; */
+            }
+            #oneplaus-Ensemble>div:nth-child(1){
+                width: 100%;
+                margin: auto;
+                margin-right: 20px;
+            }
+            #oneplaus-Ensemble>div:nth-child(2){
+                width: 100%;
+                margin: auto;
+                margin-right: 20px;
+
+            }
+            #Keyboard-81-Pro>div>div:nth-child(1)>p{
+                flex-direction: column;
+                font-size: 20px;
+                color: green;
+                
+            }
+            #pic-text{
+                flex-direction: column;
+                }
+            
+                #pic-text>div:nth-child(2){
+                    color: blue;
+                }
+
+    }
+
+    #Keyboard-81-Pro>div{
+        /* border: 5px solid red; */
+        height: 700px;
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
+    #Keyboard-81-Pro>div>div{
+        /* border: 3px solid blue; */
+        width: 90%;
+        margin: auto;
+       padding-top: 30px;
+    }
+    
+    #Keyboard-81-Pro>div>div:nth-child(1)>p{
+        /* color: blue; */
+      font-size: 55px;
+    }
+    #pic-text{
+        /* border: 3px solid blue; */
+        height: 420px;
+        width: 100%;
+        display: flex;
+        /* justify-content: space-between; */
+    } 
+    #pic-text>div:nth-child(1){
+        /* border: 3px solid orangered; */
+        width: 65%;
+    }
+    #pic-text>div:nth-child(1)>img:hover{
+        scale: 1.05;
+
+    }
+    
+    #pic-text>div:nth-child(2){
+        /* border: 3px solid skyblue; */
+        width: 30%;
+       margin-left: 20px;
+    }
+    #U{
+        /* border: 3px solid blue; */
+    }
+    #U>div>div:nth-child(1){
+        /* color: blueviolet; */
+        font-size: 20px;
+        padding-top: 5px;
+   }
+   #U>div>div:nth-child(2){
+    /* color: brown; */
+    font-size: 57px;
+   }
+   #L>div>div:nth-child(1){
+    /* border: 3px solid green; */
+    font-size: 15.9px;
+    margin-top: 64%;
+   }
+   #L>div>div:nth-child(2){
+      margin-top: 10px;
+      /* border: 3px solid green; */
+      border-bottom: 1px solid rgb(132, 116, 116);
+      width: 16%;
+   }
+   #Built-for-5G{
+     /* border: 5px solid coral; */
+     width: 100%;
+    height:700px;
+    background-color: black;
+    color: white;
+   }
+   #Built-for-5G>div{
+    /* border: 5px solid darkred; */
+    height: 450px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   }
+   #Built-for-5G>div>div:nth-child(1){
+    /* border: 5px solid blueviolet; */
+    height: 100%;
+    width: 45%;
+   }
+   #Built-for-5G>div>div:nth-child(2){
+    /* border: 5px solid blue; */
+    height: 100%;
+    width: 100%;
+   }
+   #Built-for-5G>div>div:nth-child(2)>img:hover{
+        scale: 1.05;
+   }
+
+   #U-1{
+    /* border: 5px solid blue; */
+    width: 100%;
+   }
+   #U-1>div:nth-child(1){
+    font-size: 20px;
+   }
+   #U-1>div:nth-child(2){
+    font-size: 50px;
+    padding-top: 10px;
+   }
+
+    #L-1{
+        /* border: 3px solid green; */
+        width: 20%;
+        margin-top: 73%;
+    }
+    #L-1>div:nth-child(2){
+     padding-top: 10px;
+     border-bottom: 1px solid grey;
+    }
+
+
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div>
+            <div id="oneplaus-Ensemble">
+                <div>
+                    <div id="upper">
+                         <div><p>One For All</p></div>
+                         <div><p>OnePlus Ensemble</p></div>
+                    </div>
+                    <div>
+
+                    <div id="lower">
+                     
+                           <p>Seamlessly connect all the OnePlus products to one another for a </p>
+                        <p>smart and smooth experience.</p>
+                        <div><p> At ₹109 997* Incl. Bank Discount</p></div>
+                        <div><button>Buy Now</button></div>
+                    </div>
+                    </div>
+        
+                    
+                </div>
+
+                <div>
+                     <img  class="h-w" 
+                     src="https://www.oneplus.in/content/dam/oasis/page/2023/in/home/oneplus-ecosystem/largecard.jpg.thumb.webp" 
+                     alt="error"/>
+                </div>
+            
+             </div>
+             <div id="OnePlus-Featuring">
+                <div>
+                    <p>OnePlus Featuring</p>
+                </div>
+            </div>
+        </div> 
+        
+    </div>
+
+     <div id="Keyboard-81-Pro">
+        <div>
+            <div>
+                <p>A new platform that strives to 'Empower the quality of your digital life'.Discover more</p>
+            </div>
+
+            <div id="pic-text">
+                <div>
+                    <img class="h-w"  src="https://www.oneplus.in/content/dam/oasis/page/2023/home/keyboard/20230406-keyboard-pc.jpg.thumb.webp"
+                     alt="error"/>
+                </div>
+                <div>
+                    <div id="U" >
+                        <div>
+                            <div><p>Rewrite the Rules</p></div>
+                            <div><p>Keyboard 81 Pro</p></div>
+                        </div>
+                    </div>
+
+                    <div id="L">
+                        <div>
+                            <div><p>Power by OnePlus Design | Co-Created Switches | The First Bouncy but Durable Keycap</p></div>
+                            <div><p>Buy Now</p></div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="Built-for-5G">
+        <div>
+            <div>
+                <div id="U-1">
+                    <div><p>Ready Before You Were</p></div>
+                    <div><p>Built for 5G</p></div>
+                </div>
+
+                <div id="L-1">
+                    <div>#OnePlus5GExperience<p></p></div>
+                    <div><p>Learn More</p></div>
+                </div>
+            </div>
+            <div>
+                <img class="h-w" 
+                src="https://www.oneplus.in/content/dam/oasis/page/2023/in/oneplus-5g-is-ready/5G-%E9%A6%96%E9%A1%B5-%E5%A4%A7%E5%8D%A1%E7%89%87-pc.jpg.thumb.webp" 
+                alt="error"/>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div id="Never Settle">4 </div>
+    <div id="OxygenOS 14">5</div>
+    <div id="Red Club">6</div>
+    <div id="The Power of Community">7</div>
+    <div id="Shot on OnePlus">8</div>
+    <div id="Support">9</div> 
+</body>
+</html>
