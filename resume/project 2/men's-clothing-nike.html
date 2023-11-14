@@ -1,0 +1,1338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mens's Clothing.</title>
+    <style>
+          
+          *{
+            padding: 0; margin: 0;
+            font-family: "Helvetica Now Text",Helvetica,Arial,sans-serif
+        }
+        .h-w{
+            height: 100%; width: 100%;
+        }
+        #men-clothing{
+            /* border: 5px solid red; */
+            height: 780px;
+            width: 100%;
+            
+          }
+        #men-clothing>div{
+            /* border: 5px solid blue; */
+            height: 700px;
+            width:95%;
+            margin: auto;
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+        #men-clothing>div>div:nth-child(1){
+            /* border: 5px solid green; */
+            height: 100%;
+            width:20%;
+            overflow: scroll;
+        }
+        #Clothing-range>div{
+            /* border: 5px solid red; */
+            height: 340px;
+            line-height: 28px;
+            border-bottom: 1px solid gray;
+        }
+        #Clothing-range>div>div:nth-child(1){
+            padding-top: 20px;
+            margin-bottom: 25px;
+        }
+        #Clothing-range>div>div:nth-child(2),
+        #Clothing-range>div>div:nth-child(3),
+        #Clothing-range>div>div:nth-child(4),
+        #Clothing-range>div>div:nth-child(5),
+        #Clothing-range>div>div:nth-child(6),
+        #Clothing-range>div>div:nth-child(7),
+        #Clothing-range>div>div:nth-child(8),
+        #Clothing-range>div>div:nth-child(9){
+           font-size: 16px;
+           
+        }
+        #Genders-1>div{
+            /* border: 5px solid blue; */
+            height: 150px;
+            margin-top: 30px;
+            border-bottom: 1px solid gray;
+            line-height: 27px;
+        } 
+        #Genders-1>div:nth-child(1){
+           font-size:16px; 
+           padding-top: 20px;
+        }
+        #Genders-2>div{
+            /* border: 5px solid red; */
+            height: 150px;
+            margin-top: 30px;
+            border-bottom: 1px solid gray;
+            line-height: 27px;
+        } 
+        #Genders-2>div:nth-child(1){
+           font-size:15px; 
+           padding-top: 20px;
+        }
+        #Genders-3>div{
+            /* border: 5px solid blue; */
+            height: 60px;
+            margin-top: 30px;
+            border-bottom: 1px solid gray;
+            line-height: 27px;
+        } 
+
+        #Genders-4>div{
+            /* border: 5px solid blue; */
+            height: 100px;
+            margin-top: 30px;
+            border-bottom: 1px solid ;
+            line-height: 27px;
+        } 
+        #Genders-5>div{
+            /* border: 5px solid blue; */
+            height: 500px;
+            margin-top: 30px;
+            border-bottom: 1px solid gray;
+        } 
+        #Genders-5>div>div:nth-child(2){
+            /* border: 5px solid blue; */
+            display: flex;
+            justify-content: space-around;
+        }
+        #Genders-5>div>div:nth-child(3){
+            /* border: 5px solid blue; */
+            margin-top: 5px;
+            display: flex;
+            justify-content: space-around;
+        }
+        #Genders-5>div>div>div>button{
+            height: 40px;
+            width: 70px;
+            border-color: white;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+        #Genders-5>div>div>div>button:hover{
+            border-color: black;
+        }
+        #Genders-5>div>div:nth-child(4){
+            /* border: 5px solid blue; */
+            margin-top: 5px;
+            display: flex;
+            justify-content: space-around;
+        }
+        #Genders-5>div>div:nth-child(5){
+            /* border: 5px solid blue; */
+            margin-top: 5px;
+            display: flex;
+            justify-content: space-around;
+        }
+        #Genders-5>div>div:nth-child(6){
+            /* border: 5px solid blue; */
+            margin-top: 5px;
+            display: flex;
+            justify-content: space-around;
+        }
+        #Genders-5>div>div:nth-child(7){
+            /* border: 5px solid blue; */
+            margin-top: 5px;
+            display: flex;
+            justify-content: space-around;
+        }
+        #Genders-5>div>div:nth-child(8){
+            /* border: 5px solid blue; */
+            margin-top: 5px;
+            display: flex;
+            justify-content: space-around;
+        }
+        #Genders-5>div>div:nth-child(9){
+            /* border: 5px solid blue; */
+            margin-top: 5px;
+            display: flex;
+            justify-content: space-around;
+        }
+        #Genders-5>div>div:nth-child(10){
+            /* border: 5px solid blue; */
+            margin-top: 5px;
+            display: flex;
+            justify-content: space-around;
+        }
+        #Genders-5>div>div:nth-child(11){
+            /* border: 5px solid blue; */
+            margin-top: 5px;
+            display: flex;
+            justify-content: space-around;
+        }
+        #Genders-6>div{
+            /* border: 5px solid blue; */
+            height: 130px;
+            margin-top: 30px;
+            line-height: 27px;
+        } 
+        #Genders-6>div>:nth-child(2){
+            display: flex;
+            justify-content: space-around;
+        }
+        #Genders-6>div>:nth-child(3){
+            display: flex;
+            justify-content: space-around;
+        }
+        #Genders-6>div>:nth-child(4){
+            display: flex;
+            justify-content: space-around;
+        }
+       
+        #Genders-6>div>:nth-child(5){
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #Genders-6>div>div>div>button{
+            height: 32px;
+            width: 32px;
+            margin-top: 20px;
+            border-radius:100px ;
+            border: none;
+        }
+        #Genders-6>div>div>div:nth-child(1)>button{
+            background-color: black;
+        }
+        #Genders-6>div>div>div:nth-child(2)>button{
+            background-color:blue;
+        }
+        #Genders-6>div>div>div:nth-child(3)>button{
+            background-color:brown;
+        }
+
+        #B-A>div{
+            /* border: 5px solid red; */
+            display: flex;
+            justify-content: space-around;
+        }
+        #B-A>div>div>button{
+            height: 32px;
+            width: 32px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-radius:100px ;
+            border: none;
+        }
+        #B-A>div>div:nth-child(1)>button{
+            background-color:green ;
+        }
+        #B-A>div>div:nth-child(2)>button{
+            background-color:gray;
+        }
+        #B-A>div>div:nth-child(3)>button{
+            background-color:yellow ;
+        }
+
+
+
+        #B-A-1>div{
+            /* border: 5px solid red; */
+            display: flex;
+            justify-content: space-around;
+           
+        }
+        #B-A-1>div>div>button{
+            height: 32px;
+            width: 32px;
+            margin-top: 20px;
+            border-radius:100px ;
+            margin-bottom: 10px;
+            border: none;
+            margin-top: 30px;
+        }
+        #B-A-1>div>div:nth-child(1)>button{
+            background-color:orange;
+        }
+        #B-A-1>div>div:nth-child(2)>button{
+            background-color:pink;
+        }
+        #B-A-1>div>div:nth-child(3)>button{
+            background-color: purple;
+        }
+        
+
+        #B-A-2>div{
+            /* border: 5px solid red; */
+            display: flex;
+            justify-content: space-around;
+            border-radius: 1px solid gray;
+           
+        }
+        #B-A-2>div>div>button{
+            height: 32px;
+            width: 32px;
+            margin-top: 20px;
+            border-radius:100px ;
+            margin-bottom: 10px;
+            margin-top: 30px;
+        }
+        #B-A-2>div>div:nth-child(1)>button{
+            background-color:red;
+            border: none;
+        }
+        #B-A-2>div>div:nth-child(2)>button{
+            background-color:white;
+        }
+        #B-A-2>div>div:nth-child(3)>button{
+            background-color: yellow;
+            border: none;
+        }
+
+        #Genders-7>div{
+            /* border: 5px solid blue; */
+            height: 120px;
+            margin-top: 50px;
+            line-height: 25px;
+            border-bottom: 1px solid gray;
+        } 
+
+        #Genders-8>div{
+             /* border: 5px solid blue;  */
+            height: 120px;
+            margin-top: 30px;
+            line-height: 25px;
+            border-bottom: 1px solid gray;
+        } 
+
+        #Genders-9>div{
+            /* border: 5px solid blue; */
+            height:50px;
+            margin-top: 30px;
+            line-height: 25px;
+            border-bottom: 1px solid gray;
+        } 
+
+        #Genders-10>div{
+            /* border: 5px solid blue; */
+            height: 100px;
+            margin-top: 30px;
+            line-height: 25px;
+            border-bottom: 1px solid gray;
+        } 
+        #Genders-11>div{
+            /* border: 5px solid blue; */
+            height: 130px;
+            margin-top: 30px;
+            line-height: 25px;
+            border-bottom: 1px solid gray;
+        } 
+        #Genders-12>div{
+            /* border: 5px solid blue; */
+            height: 110px;
+            margin-top: 30px;
+            line-height: 25px;
+            border-bottom: 1px solid gray;
+        } 
+        
+    
+       
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+        #men-clothing>div>div:nth-child(2){
+            /* border: 5px solid skyblue; */
+            height: 100%;
+            width:80%;
+            overflow: scroll;
+            
+        }
+
+        #men-clothing>div>div>div:nth-child(1){
+            /* border: 5px solid blue; */
+            /* height:100% ; */
+            width:100%;
+            display: flex;
+            justify-content: space-around;
+        }
+        #Clothing-1-bar>div{
+            /* border: 5px solid red; */
+            height: 500px;
+            width:30%;
+            margin-top: 25px;
+        }
+        #Clothing-1-bar>div>div:nth-child(1){
+            /* border: 5px solid green; */
+            height: 75%;
+            
+        }
+        #Clothing-1-bar>div>div:nth-child(2){
+            /* border: 5px solid yellow; */
+            height: 21%;
+            line-height: 22px;
+        }
+        #Clothing-1-bar>div>div>div:nth-child(1)>p{
+            margin-top: 10px;
+        }
+        #Clothing-1-bar>div>div>div:nth-child(2)>p{
+             color: gray;
+        }
+        #Clothing-1-bar>div>div>div:nth-child(3)>p{
+             color: gray;
+        }
+        
+
+
+        #Clothing-2-bar>div{
+            /* border: 5px solid red; */
+            height: 500px;
+            width:100%;
+            margin-top: 25px;
+            display: flex;
+            justify-content: space-around;
+        }
+        #Clothing-2-bar>div>div{
+            /* border: 5px solid green; */
+            width:30%;
+            margin-top: 25px;
+        }
+        #Clothing-2-bar>div>div>div:nth-child(1){
+            /* border: 5px solid pink; */
+            height: 75%;
+            
+        }
+        #Clothing-2-bar>div>div>div:nth-child(2){
+            /* border: 5px solid yellow; */
+            height: 21%;
+            line-height: 22px;
+        }
+
+
+
+        #Clothing-3-bar>div{
+            /* border: 5px solid red; */
+            height: 500px;
+            width:100%;
+            margin-top: 25px;
+            display: flex;
+            justify-content: space-around;
+        }
+        #Clothing-3-bar>div>div{
+            /* border: 5px solid green; */
+            width:30%;
+            margin-top: 25px;
+        }
+        #Clothing-3-bar>div>div>div:nth-child(1){
+            /* border: 5px solid pink; */
+            height: 75%;
+            
+        }
+        #Clothing-3-bar>div>div>div:nth-child(2){
+            /* border: 5px solid yellow; */
+            height: 21%;
+            line-height: 22px;
+        }
+
+        #Clothing-4-bar>div{
+            /* border: 5px solid red; */
+            height: 500px;
+            width:100%;
+            margin-top: 25px;
+            display: flex;
+            justify-content: space-around;
+        }
+        #Clothing-4-bar>div>div{
+            /* border: 5px solid green; */
+            width:30%;
+            margin-top: 25px;
+        }
+        #Clothing-4-bar>div>div>div:nth-child(1){
+            /* border: 5px solid pink; */
+            height: 75%;
+            
+        }
+        #Clothing-4-bar>div>div>div:nth-child(2){
+            /* border: 5px solid yellow; */
+            height: 21%;
+            line-height: 22px;
+        }
+
+
+        #Clothing-5-bar>div{
+            /* border: 5px solid red; */
+            height: 500px;
+            width:100%;
+            margin-top: 25px;
+            display: flex;
+            justify-content: space-around;
+        }
+        #Clothing-5-bar>div>div{
+            /* border: 5px solid green; */
+            width:30%;
+            margin-top: 25px;
+        }
+        #Clothing-5-bar>div>div>div:nth-child(1){
+            /* border: 5px solid pink; */
+            height: 75%;
+            
+        }
+        #Clothing-5-bar>div>div>div:nth-child(2){
+            /* border: 5px solid yellow; */
+            height: 21%;
+            line-height: 22px;
+        }
+
+        #Clothing-6-bar>div{
+            /* border: 5px solid red; */
+            height: 500px;
+            width:100%;
+            margin-top: 25px;
+            display: flex;
+            justify-content: space-around;
+        }
+        #Clothing-6-bar>div>div{
+            /* border: 5px solid green; */
+            width:30%;
+            margin-top: 25px;
+        }
+        #Clothing-6-bar>div>div>div:nth-child(1){
+            /* border: 5px solid pink; */
+            height: 75%;
+            
+        }
+        #Clothing-6-bar>div>div>div:nth-child(2){
+            /* border: 5px solid yellow; */
+            height: 21%;
+            line-height: 22px;
+        }
+
+
+        #Clothing-7-bar>div{
+            /* border: 5px solid red; */
+            height: 500px;
+            width:100%;
+            margin-top: 25px;
+            display: flex;
+            justify-content: space-around;
+        }
+        #Clothing-7-bar>div>div{
+            /* border: 5px solid green; */
+            width:30%;
+            margin-top: 25px;
+        }
+        #Clothing-7-bar>div>div>div:nth-child(1){
+            /* border: 5px solid pink; */
+            height: 75%;
+            
+        }
+        #Clothing-7-bar>div>div>div:nth-child(2){
+            /* border: 5px solid yellow; */
+            height: 21%;
+            line-height: 22px;
+        }
+
+        #Clothing-8-bar>div{
+            /* border: 5px solid red; */
+            height: 500px;
+            width:100%;
+            margin-top: 25px;
+            display: flex;
+            justify-content: space-around;
+        }
+        #Clothing-8-bar>div>div{
+            /* border: 5px solid green; */
+            width:30%;
+            margin-top: 25px;
+        }
+        #Clothing-8-bar>div>div>div:nth-child(1){
+            /* border: 5px solid pink; */
+            height: 75%;
+            
+        }
+        #Clothing-8-bar>div>div>div:nth-child(2){
+            /* border: 5px solid yellow; */
+            height: 21%;
+            line-height: 22px;
+        }
+
+        #Clothing-9-bar>div{
+            /* border: 5px solid red; */
+            height: 500px;
+            width:100%;
+            margin-top: 25px;
+            display: flex;
+            justify-content: space-around;
+        }
+        #Clothing-9-bar>div>div{
+            /* border: 5px solid green; */
+            width:30%;
+            margin-top: 25px;
+        }
+        #Clothing-9-bar>div>div>div:nth-child(1){
+            /* border: 5px solid pink; */
+            height: 75%;
+            
+        }
+        #Clothing-9-bar>div>div>div:nth-child(2){
+            /* border: 5px solid yellow; */
+            height: 21%;
+            line-height: 22px;
+        }
+    </style>
+</head>
+<body>
+    <div id="men-clothing">
+          <div>
+              <div >
+                 <div id="Clothing-range">
+                     <div>
+                        <div><h2>Men's Clothing(497)</h2></div>
+                        <div><p>Tops & T-Shirts</p></div>
+                        <div><p>Hoodies & Sweatshirts</p></div>
+                        <div><p>Jackets</p></div>
+                        <div><p>Trousers & Tights</p></div>
+                        <div><p>Tracksuits</p></div>
+                        <div><p> Shorts</p></div>
+                        <div><p>Compression & Baselayer</p></div>
+                        <div><p>Socks</p></div>
+                     </div>
+                </div>
+
+               
+             
+               <div id="Genders-1">
+                      <div > 
+                        <div><p>Gender(1)</p></div>
+                        <div><input type="checkbox"/>Man</div>
+                        <div><input type="checkbox"/>Woman</div>
+                        <div><input type="checkbox"/>Unisex</div>
+                      </div>
+                </div>
+              
+
+
+                <div id="Genders-2">
+                    <div > 
+                      <div><p>Shope By price</p></div>
+                      <div><input type="checkbox"/> Under ₹ 2 500.</div>
+                      <div><input type="checkbox"/>₹ 2 501.00 - ₹ 7 500.00</div>
+                      <div><input type="checkbox"/>₹ 7 501.00 - ₹ 12 999.00</div>
+                      <div><input type="checkbox"/>Over ₹ 13 000.00</div>
+                    </div>
+                </div>
+                
+
+                    <div id="Genders-3">
+                        <div>
+                            <div><p>Sale & Offers</p></div>
+                            <div><input type="checkbox"/>Sale</div>
+                        </div>
+                    </div>
+
+                    <div id="Genders-4">
+                        <div>
+                            <div><p>Sizing</p></div>
+                            <div><input type="checkbox"/>Asia Sizing</div>
+                            <div><input type="checkbox"/>US Sizing</div>
+                        </div>
+                    </div>
+                  
+                    <div id="Genders-5">
+                        <div>
+                            <div><p>Sizing</p></div>
+                            <div>
+                                <div><button>L</button></div>
+                                 <div><button>XL</button></div>
+                                 <div><button>30</button></div>
+                            </div>
+                            <div>
+                                <div><button>32</button></div>
+                                 <div><button>34</button></div>
+                                 <div><button>36</button></div>
+                            </div>
+                            <div>
+                                <div><button>12.5-2.5</button></div>
+                                 <div><button>2-5</button></div>
+                            </div>
+                            <div>
+                                <div><button>5-8</button></div>
+                                 <div><button>8-11</button></div>
+                            </div>
+                            <div>
+                                <div><button>11-14.5</button></div>
+                                 <div><button>3.5-5</button></div>
+                                 
+                            </div>
+                            <div>
+                                <div><button>5.5-6.5</button></div>
+                                 <div><button>7-8.5</button></div>
+                                
+                            </div>
+                            <div>
+                                <div><button>M(44)</button></div>
+                                 <div><button>L(48)</button></div>
+                                
+                            </div>
+                            <div>
+                                <div><button>XL(56)</button></div>
+                                 <div><button>XXL(52)</button></div>
+                            </div>
+
+                            <div>
+                                <div><button>XS</button></div>
+                                 <div><button>S</button></div>
+                                 <div><button>M</button></div>
+                            </div>
+                            <div>
+                                <div><button>L</button></div>
+                                 <div><button>XL</button></div>
+                            </div>
+                            
+                        </div>
+                    </div>
+              
+                  <div id="Genders-6">
+                         <div>
+                            <div><p>Colours</p></div>
+                            <div>
+                                <div><button></button></div>
+                                <div><button></button></div>
+                                <div><button></button></div>
+                            </div>
+                            <div>
+                                <div><p>black</p></div>
+                                <div><p>blue</p></div>
+                                <div><p>brown</p></div>
+                            </div>
+                         </div>
+                         
+                  </div>
+
+                  <div id="B-A">
+                    <div>
+                        <div><button></button></div>
+                        <div><button></button></div>
+                        <div><button></button></div>
+                    </div>
+                    <div>
+                        <div><p>Green</p></div>
+                        <div><p></p>Gray</div>
+                        <div><p>yellow</p></div>
+                    </div>
+                 </div>
+
+
+                 <div id="B-A-1">
+                    <div>
+                        <div><button></button></div>
+                        <div><button></button></div>
+                        <div><button></button></div>
+                    </div>
+                    <div>
+                        <div><p>Orang</p></div>
+                        <div><p>Pink</p></div>
+                        <div><p>Purple</p></div>
+                    </div>
+                 </div>
+
+                 <div id="B-A-2">
+                    <div>
+                        <div><button></button></div>
+                        <div><button></button></div>
+                        <div><button></button></div>
+                    </div>
+                    <div>
+                        <div><p>Red</p></div>
+                        <div><p>white</p></div>
+                        <div><p>yellow</p></div>
+                    </div>
+                 </div>
+
+                 <div id="Genders-7">
+                    <div>
+                        <div><p>Fit</p></div>
+                        <div><input type="checkbox"/>Oversized</div>
+                        <div><input type="checkbox"/>Loose</div>
+                        <div><input type="checkbox"/>Slim</div>
+                        <div><input type="checkbox"/>Standard</div>
+                    </div>
+                </div>
+                <div id="Genders-8">
+                    <div>
+                        <div><p>Brand</p></div>
+                        <div><input type="checkbox"/>Nike Sportswear</div>
+                        <div><input type="checkbox"/>Jordan</div>
+                        <div><input type="checkbox"/>NikeLab</div>
+                        <div><input type="checkbox"/>ACG</div>
+                    </div>
+                </div>
+
+
+                <div id="Genders-9">
+                    <div>
+                        <div><p>Studio Classes</p></div>
+                        <div><input type="checkbox"/>Yoga</div>
+                        
+                    </div>
+                </div>
+
+                <div id="Genders-10">
+                    <div>
+                        <div><p>icoan</p></div>
+                        <div><input type="checkbox"/>Elite</div>
+                        <div><input type="checkbox"/>Miler</div>
+                        <div><input type="checkbox"/>Windrunner</div>
+                        
+                    </div>
+                </div>
+
+                <div id="Genders-11">
+                    <div>
+                        <div><p>Technology</p></div>
+                        <div><input type="checkbox"/>Drip-FIT</div>
+                        <div><input type="checkbox"/>Storm-FIT</div>
+                        <div><input type="checkbox"/>Therma-FIT</div>
+                        <div><input type="checkbox"/>NikeGripe</div>
+                    </div>
+                </div>
+
+                <div id="Genders-12">
+                    <div>
+                        <div><p>Sleeve Length</p></div>
+                        <div><input type="checkbox"/>Short-Sleeve</div>
+                        <div><input type="checkbox"/>Long-Sleeve</div>
+                        <div><input type="checkbox"/>Sleeveless/Tank</div>
+                      
+                    </div>
+                </div>
+
+
+        </div>
+
+
+
+
+    
+
+       
+             <div>
+
+              <div id="Clothing-1-bar">
+                <div>
+                     <div>
+                         <img class="h-w"
+                          src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/471d677b-7b94-48af-8cfd-d38e502f241e/ja-dri-fit-pullover-basketball-hoodie-Cp748n.png"
+                          alt="error"/>
+                     </div>
+                     <div>
+                          <div><p>Sustainable Materials</p></div>
+                            <div><p> JA</p></div>
+                            <div><p>Men's Dri-FIT Pullover Basketball Hoodie</p></div>
+                            <div><p>2 Coloures</p></div>
+                            <div><p>MRP : ₹ 5 995.00</p></div>
+                     </div>
+                </div>
+
+
+                <div>
+                    <div>
+                        <img class="h-w"
+                        src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/19ffdaca-e3eb-4eb2-85ce-d82c9495b85f/zion-t-shirt-4wVTdv.png"
+                        alt="error"/>
+                    </div>
+                    <div>
+                        <div><p>Zion</p></div>
+                        <div><p>Men's T-Shirt</p></div>
+                        <div><p> 2 Colours</p></div>
+                        <div><p> MRP : ₹ 1 795.00</p></div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img class="h-w"
+                        src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1c064df0-e34d-4fff-bc68-775086142e88/trail-cosmic-peaks-gore-tex-infinium-running-jacket-RbxkLH.png"
+                        alt="error"/>
+                    </div>
+                    <div>
+                        <div><p>Nike Trail 'Cosmic Peaks' GORE-TEX  </p></div>
+                        <div><p>INFINIUM™</p></div>
+                        <div><p>  Men's Running Jacket</p></div>
+                        <div><p>1 Colour</p></div>
+                        <div><p>MRP : ₹ 14 995.00</p></div>
+                    </div>
+                </div>
+
+            </div>
+
+              
+                <div  id="Clothing-2-bar">
+                   <div>
+                       <div>                       
+                        <div>
+                            <img class="h-w"
+                             src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e0ca0bbe-b323-4401-b693-cdd2939c75c5/jordan-brand-graphic-long-sleeve-t-shirt-rjQvFd.png"
+                             alt="error"/>
+                        </div>
+                        <div>
+                             <div><p>Sustainable Materials</p></div>
+                               <div><p> JA</p></div>
+                               <div><p>Men's Dri-FIT Pullover Basketball Hoodie</p></div>
+                               <div><p>2 Coloures</p></div>
+                               <div><p>MRP : ₹ 5 995.00</p></div>
+                        </div>  
+                        </div>
+                        
+                        
+                         <div>
+                            <div>
+                                <img class="h-w"
+                                 src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5e5adb5a-45b3-4491-8eac-2607638321c1/jordan-essentials-holiday-fleece-crew-528z4b.png"
+                                 alt="error"/>
+                            </div>
+                            <div>
+                                 <div><p>Sustainable Materials</p></div>
+                                   <div><p> JA</p></div>
+                                   <div><p>Men's Dri-FIT Pullover Basketball Hoodie</p></div>
+                                   <div><p>2 Coloures</p></div>
+                                   <div><p>MRP : ₹ 5 995.00</p></div>
+                            </div>
+                         </div>
+                        
+                        
+                        <div>
+                            <div>
+                                <img class="h-w"
+                                 src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/2c83465a-58e7-438e-9af7-1eb88350f5d9/jordan-essentials-holiday-fleece-trousers-nZnMpt.png"
+                                 alt="error"/>
+                            </div>
+                            <div>
+                                 <div><p>Sustainable Materials</p></div>
+                                   <div><p> JA</p></div>
+                                   <div><p>Men's Dri-FIT Pullover Basketball Hoodie</p></div>
+                                   <div><p>2 Coloures</p></div>
+                                   <div><p>MRP : ₹ 5 995.00</p></div>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+
+
+
+
+
+
+
+                      
+                <div  id="Clothing-3-bar">
+                    <div>
+                        <div>                       
+                         <div>
+                             <img class="h-w"
+                              src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/32427f96-7b4e-4572-a9cd-f5d233f8f43a/form-dri-fit-hooded-versatile-jacket-Bz3WcP.png"
+                              alt="error"/>
+                         </div>
+                         <div>
+                              <div><p>Sustainable Materials</p></div>
+                                <div><p> JA</p></div>
+                                <div><p>Men's Dri-FIT Pullover Basketball Hoodie</p></div>
+                                <div><p>2 Coloures</p></div>
+                                <div><p>MRP : ₹ 5 995.00</p></div>
+                         </div>  
+                         </div>
+                         
+                         
+                          <div>
+                             <div>
+                                 <img class="h-w"
+                                  src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/297a9ad9-d331-4b6b-b435-6e96e9a675a8/jordan-essentials-woven-trousers-2NkzfV.png"
+                                  alt="error"/>
+                             </div>
+                             <div>
+                                  <div><p>Sustainable Materials</p></div>
+                                    <div><p> JA</p></div>
+                                    <div><p>Men's Dri-FIT Pullover Basketball Hoodie</p></div>
+                                    <div><p>2 Coloures</p></div>
+                                    <div><p>MRP : ₹ 5 995.00</p></div>
+                             </div>
+                          </div>
+                         
+                         
+                         <div>
+                             <div>
+                                 <img class="h-w"
+                                  src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0c0686ec-c930-460d-a246-73dfd79067f9/dri-fit-uv-hyverse-short-sleeve-fitness-top-mpJDvR.png"
+                                  alt="error"/>
+                             </div>
+                             <div>
+                                  <div><p>Sustainable Materials</p></div>
+                                    <div><p> JA</p></div>
+                                    <div><p>Men's Dri-FIT Pullover Basketball Hoodie</p></div>
+                                    <div><p>2 Coloures</p></div>
+                                    <div><p>MRP : ₹ 5 995.00</p></div>
+                             </div>
+                         </div>
+                    </div>
+                 </div>
+
+
+
+
+
+
+                 <div  id="Clothing-4-bar">
+                    <div>
+                        <div>                       
+                         <div>
+                             <img class="h-w"
+                              src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e4dfb727-c60f-4940-ae15-5da5331a5dc3/life-cargo-trousers-97gSpJ.png"
+                              alt="error"/>
+                         </div>
+                         <div>
+                              <div><p>Sustainable Materials</p></div>
+                                <div><p> JA</p></div>
+                                <div><p>Men's Dri-FIT Pullover Basketball Hoodie</p></div>
+                                <div><p>2 Coloures</p></div>
+                                <div><p>MRP : ₹ 5 995.00</p></div>
+                         </div>  
+                         </div>
+                         
+                         
+                          <div>
+                             <div>
+                                 <img class="h-w"
+                                  src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e14669af-553f-4fde-a1a1-5ce7d3c10745/jordan-dri-fit-sport-fleece-sweatshirt-s9zZfT.png"
+                                  alt="error"/>
+                             </div>
+                             <div>
+                                  <div><p>Sustainable Materials</p></div>
+                                    <div><p> JA</p></div>
+                                    <div><p>Men's Dri-FIT Pullover Basketball Hoodie</p></div>
+                                    <div><p>2 Coloures</p></div>
+                                    <div><p>MRP : ₹ 5 995.00</p></div>
+                             </div>
+                          </div>
+                         
+                         
+                         <div>
+                             <div>
+                                 <img class="h-w"
+                                  src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/06419b23-3436-4dc7-9186-7aa3cdbc84e7/jordan-dri-fit-sport-hoodie-53nkg7.png"
+                                  alt="error"/>
+                             </div>
+                             <div>
+                                  <div><p>Sustainable Materials</p></div>
+                                    <div><p> JA</p></div>
+                                    <div><p>Men's Dri-FIT Pullover Basketball Hoodie</p></div>
+                                    <div><p>2 Coloures</p></div>
+                                    <div><p>MRP : ₹ 5 995.00</p></div>
+                             </div>
+                         </div>
+                    </div>
+                 </div>
+
+
+
+                 <div  id="Clothing-5-bar">
+                    <div>
+                        <div>                       
+                         <div>
+                             <img class="h-w"
+                              src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/57fff668-0988-42a5-94ce-7742036f5646/lebron-pullover-fleece-hoodie-lMkhMX.png"
+                              alt="error"/>
+                         </div>
+                         <div>
+                              <div><p>Sustainable Materials</p></div>
+                                <div><p> JA</p></div>
+                                <div><p>Men's Dri-FIT Pullover Basketball Hoodie</p></div>
+                                <div><p>2 Coloures</p></div>
+                                <div><p>MRP : ₹ 5 995.00</p></div>
+                         </div>  
+                         </div>
+                         
+                         
+                          <div>
+                             <div>
+                                 <img class="h-w"
+                                  src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/97f458e1-76c4-44a8-941f-bfd3b7142bcd/jordan-jumpman-t-shirt-dLJLlq.png"
+                                  alt="error"/>
+                             </div>
+                             <div>
+                                  <div><p>Sustainable Materials</p></div>
+                                    <div><p> JA</p></div>
+                                    <div><p>Men's Dri-FIT Pullover Basketball Hoodie</p></div>
+                                    <div><p>2 Coloures</p></div>
+                                    <div><p>MRP : ₹ 5 995.00</p></div>
+                             </div>
+                          </div>
+                         
+                         
+                         <div>
+                             <div>
+                                 <img class="h-w"
+                                  src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c616b8db-be0d-4579-bfa7-85a5d787214f/lebron-james-los-angeles-lakers-city-edition-2023-24-dri-fit-nba-swingman-jersey-PL8b2h.png"
+                                  alt="error"/>
+                             </div>
+                             <div>
+                                  <div><p>Sustainable Materials</p></div>
+                                    <div><p> JA</p></div>
+                                    <div><p>Men's Dri-FIT Pullover Basketball Hoodie</p></div>
+                                    <div><p>2 Coloures</p></div>
+                                    <div><p>MRP : ₹ 5 995.00</p></div>
+                             </div>
+                         </div>
+                    </div>
+                 </div>
+
+                  
+                 <div  id="Clothing-6-bar">
+                    <div>
+                        <div>                       
+                         <div>
+                             <img class="h-w"
+                              src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b26b480a-4b98-47ca-8952-25e1878fea48/milwaukee-bucks-association-edition-2022-23-dri-fit-nba-swingman-jersey-j7smvR.png"
+                              alt="error"/>
+                         </div>
+                         <div>
+                              <div><p>Sustainable Materials</p></div>
+                                <div><p> JA</p></div>
+                                <div><p>Men's Dri-FIT Pullover Basketball Hoodie</p></div>
+                                <div><p>2 Coloures</p></div>
+                                <div><p>MRP : ₹ 5 995.00</p></div>
+                         </div>  
+                         </div>
+                         
+                         
+                          <div>
+                             <div>
+                                 <img class="h-w"
+                                  src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/bea775a2-895f-44a6-b712-a4eb2c8d287b/dri-fit-running-t-shirt-Dh9Trn.png"
+                                  alt="error"/>
+                             </div>
+                             <div>
+                                  <div><p>Sustainable Materials</p></div>
+                                    <div><p> JA</p></div>
+                                    <div><p>Men's Dri-FIT Pullover Basketball Hoodie</p></div>
+                                    <div><p>2 Coloures</p></div>
+                                    <div><p>MRP : ₹ 5 995.00</p></div>
+                             </div>
+                          </div>
+                         
+                         
+                         <div>
+                             <div>
+                                 <img class="h-w"
+                                  src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/37f3f9c3-e54c-4f77-a8a3-e7f9918325e5/chelsea-fc-2023-24-stadium-home-dri-fit-football-shirt-BWFR6q.png"
+                                  alt="error"/>
+                             </div>
+                             <div>
+                                  <div><p>Sustainable Materials</p></div>
+                                    <div><p> JA</p></div>
+                                    <div><p>Men's Dri-FIT Pullover Basketball Hoodie</p></div>
+                                    <div><p>2 Coloures</p></div>
+                                    <div><p>MRP : ₹ 5 995.00</p></div>
+                             </div>
+                         </div>
+                    </div>
+                 </div>
+
+
+
+                 <div  id="Clothing-7-bar">
+                    <div>
+                        <div>                       
+                         <div>
+                             <img class="h-w"
+                              src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6fe9599b-623f-4fb6-9fed-3e0b5b01886d/dri-fit-stride-18cm-brief-lined-running-shorts-SVPFSt.png"
+                              alt="error"/>
+                         </div>
+                         <div>
+                              <div><p>Sustainable Materials</p></div>
+                                <div><p> JA</p></div>
+                                <div><p>Men's Dri-FIT Pullover Basketball Hoodie</p></div>
+                                <div><p>2 Coloures</p></div>
+                                <div><p>MRP : ₹ 5 995.00</p></div>
+                         </div>  
+                         </div>
+                         
+                         
+                          <div>
+                             <div>
+                                 <img class="h-w"
+                                  src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2479387b-9021-430a-a4f4-8049b088c2dd/dri-fit-totality-18cm-unlined-shorts-MDJlhD.png"
+                                  alt="error"/>
+                             </div>
+                             <div>
+                                  <div><p>Sustainable Materials</p></div>
+                                    <div><p> JA</p></div>
+                                    <div><p>Men's Dri-FIT Pullover Basketball Hoodie</p></div>
+                                    <div><p>2 Coloures</p></div>
+                                    <div><p>MRP : ₹ 5 995.00</p></div>
+                             </div>
+                          </div>
+                         
+                         
+                         <div>
+                             <div>
+                                 <img class="h-w"
+                                  src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/73f0de59-9971-4498-963f-c0c6fa080e21/liverpool-fc-2023-24-match-away-dri-fit-adv-football-shirt-nZjWw8.png"
+                                  alt="error"/>
+                             </div>
+                             <div>
+                                  <div><p>Sustainable Materials</p></div>
+                                    <div><p> JA</p></div>
+                                    <div><p>Men's Dri-FIT Pullover Basketball Hoodie</p></div>
+                                    <div><p>2 Coloures</p></div>
+                                    <div><p>MRP : ₹ 5 995.00</p></div>
+                             </div>
+                         </div>
+                    </div>
+                 </div>
+
+          
+
+                 <div  id="Clothing-8-bar">
+                    <div>
+                        <div>                       
+                         <div>
+                             <img class="h-w"
+                              src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/da74291a-d1a1-47f4-859b-b8cb6e858b7c/jordan-sport-jam-warm-up-jacket-KJz9vF.png"
+                              alt="error"/>
+                         </div>
+                         <div>
+                              <div><p>Sustainable Materials</p></div>
+                                <div><p> JA</p></div>
+                                <div><p>Men's Dri-FIT Pullover Basketball Hoodie</p></div>
+                                <div><p>2 Coloures</p></div>
+                                <div><p>MRP : ₹ 5 995.00</p></div>
+                         </div>  
+                         </div>
+                         
+                         
+                          <div>
+                             <div>
+                                 <img class="h-w"
+                                  src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/55e9846d-72ef-4c7e-ae3f-0ff0dd821785/acg-manhole-long-sleeve-t-shirt-hXDXWc.png"
+                                  alt="error"/>
+                             </div>
+                             <div>
+                                  <div><p>Sustainable Materials</p></div>
+                                    <div><p> JA</p></div>
+                                    <div><p>Men's Dri-FIT Pullover Basketball Hoodie</p></div>
+                                    <div><p>2 Coloures</p></div>
+                                    <div><p>MRP : ₹ 5 995.00</p></div>
+                             </div>
+                          </div>
+                         
+                         
+                         <div>
+                             <div>
+                                 <img class="h-w"
+                                  src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/687ff592-ef4a-4fb1-a403-b097b076edf0/nikecourt-dri-fit-tennis-polo-xQtSz0.png"
+                                  alt="error"/>
+                             </div>
+                             <div>
+                                  <div><p>Sustainable Materials</p></div>
+                                    <div><p> JA</p></div>
+                                    <div><p>Men's Dri-FIT Pullover Basketball Hoodie</p></div>
+                                    <div><p>2 Coloures</p></div>
+                                    <div><p>MRP : ₹ 5 995.00</p></div>
+                             </div>
+                         </div>
+                    </div>
+                 </div>
+
+
+
+
+                 <div  id="Clothing-9-bar">
+                    <div>
+                        <div>                       
+                         <div>
+                             <img class="h-w"
+                              src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3112bbcb-0c1b-4a00-bb2d-21b09c19b3d5/challenger-track-club-dri-fit-running-trousers-QkwKJp.png"
+                              alt="error"/>
+                         </div>
+                         <div>
+                              <div><p>Sustainable Materials</p></div>
+                                <div><p> JA</p></div>
+                                <div><p>Men's Dri-FIT Pullover Basketball Hoodie</p></div>
+                                <div><p>2 Coloures</p></div>
+                                <div><p>MRP : ₹ 5 995.00</p></div>
+                         </div>  
+                         </div>
+                         
+                         
+                          <div>
+                             <div>
+                                 <img class="h-w"
+                                  src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/dbd8e18a-e4d4-418a-8b69-c787f78efe1e/liverpool-fc-football-t-shirt-hJMvlv.png"
+                                  alt="error"/>
+                             </div>
+                             <div>
+                                  <div><p>Sustainable Materials</p></div>
+                                    <div><p> JA</p></div>
+                                    <div><p>Men's Dri-FIT Pullover Basketball Hoodie</p></div>
+                                    <div><p>2 Coloures</p></div>
+                                    <div><p>MRP : ₹ 5 995.00</p></div>
+                             </div>
+                          </div>
+                         
+                         
+                         <div>
+                             <div>
+                                 <img class="h-w"
+                                  src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6c610194-5686-48e2-8fb2-f1feda4601f6/tech-lined-woven-trousers-KlXxDf.png"
+                                  alt="error"/>
+                             </div>
+                             <div>
+                                  <div><p>Sustainable Materials</p></div>
+                                    <div><p> JA</p></div>
+                                    <div><p>Men's Dri-FIT Pullover Basketball Hoodie</p></div>
+                                    <div><p>2 Coloures</p></div>
+                                    <div><p>MRP : ₹ 5 995.00</p></div>
+                             </div>
+                         </div>
+                    </div>
+                 </div>
+
+
+
+         </div>
+
+
+
+            
+
+
+
+            </div>
+              
+
+
+
+
+
+
+
+
+
+
+          </div>
+
+
+
+
+
+    </div>
+
+
+
+</body>
+</html>
