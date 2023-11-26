@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike-Cart</title>
+    <style>
+        *{
+        padding: 0; margin: 0;
+        font-family: "Helvetica Now Text",Helvetica,Arial,sans-serif
+    }
+    .h-w{
+        height: 100%; width: 100%;
+    }
+    .m-l{
+      margin-left: 90px;
+    }
+    #Cart{
+        /* border: 5px solid red; */
+        height: 780px;
+        width: 100%;
+        
+      }
+      #Cart>div{
+        /* border: 5px solid blue; */
+        height: 600px;
+        width: 80%;
+        margin: auto;
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+      }
+      #Cart>div>div:nth-child(1){
+        /* border: 5px solid green; */
+        width: 60%;
+      }
+      
+      #Cart-1>div:nth-child(1){
+        /* border: 5px solid red; */
+        height: 30px;
+        margin-top: 40px;
+        font-size: 25px;
+      }
+      #Cart-1>div:nth-child(2){
+        /* border: 5px solid blueviolet; */
+        height: 200px;
+        border-bottom: 1px solid gray;
+        display: flex;
+       
+      }
+      #Cart-1>div:nth-child(3){
+        /* border: 5px solid blueviolet; */
+        height: 200px;
+        margin-top: 20px;
+        border-bottom: 1px solid gray;
+        display: flex;
+      }
+      #Cart-1>div>div:nth-child(1){
+        /* border: 5px solid red; */
+        width: 22%;
+        height: 150px;
+      }
+      #Cart-1>div>div:nth-child(2){
+        /* border: 5px solid red; */
+        width: 34%;
+        padding-left: 16px;
+        line-height: 25px;
+        font-size: 17px;
+        height: 150px;
+      }
+      #Cart-1>div>div:nth-child(3){
+        /* border: 5px solid red; */
+        width: 36%;
+        margin-left: 20px;
+        /* padding-top: 8%; */
+        font-size: 18px;
+        height: 100px;
+      }
+
+
+
+
+      #Cart>div>div:nth-child(2){
+        /* border: 5px solid skyblue; */
+        width: 33%;
+      }
+      #Cart-2>div>div:nth-child(1){
+        height: 30px;
+        margin-top: 40px;
+        font-size: 22px;
+        /* border: 5px solid red; */
+      }
+      #Cart-2>div>div:nth-child(2){
+        /* border: 5px solid green; */
+        height: 120px;
+        line-height: 30px;
+        display: flex;
+        border-bottom: 1px solid gray;
+      }
+      
+      #Cart-2>div>div:nth-child(3){
+        /* border: 5px solid green; */
+        height: 150px;
+        margin-top: 20px;
+        line-height: 70px;
+        /* border-bottom: 1px solid gray; */
+        margin-top: 70px;
+      }
+      #Cart-2>div>div>div>button{
+        background-color: black;
+        color: white;
+        height: 57px;
+        width:90%;
+        font-size: 16px;
+        margin-left: 20px;
+        border-radius: 20px;
+      }
+      #Cart-2>div>div>div>button:hover{
+         background-color: rgb(44, 41, 41);
+      }
+    </style>
+</head>
+<body>
+    <div id="Cart">
+        <div>
+            <div id="Cart-1">
+                <div><p>Bag</p></div>
+                <div>
+                    <div>
+                        <img class="h-w" 
+                        src="https://secure-images.nike.com/is/image/DotCom/DD0161_100?align=0,1&cropN=0,0,0,0&resMode=sharp&bgc=f5f5f5&wid=150&fmt=jpg"
+                         alt="error"/>
+                    </div>
+                    <div>
+                          <div><p>NikeCourt Legacy Canvas Mid</p></div>
+                            <div><p>Women's Shoe</p></div>
+                            <div><p>White/Team Orange/Black</p></div>
+                            <div><p>Size7</p></div>
+                            <div><p>Quantity1</p></div>
+                           
+                    </div>
+                    <div><p>MRP: Original price₹ 4 995.00</p></div>
+                </div>
+
+                <div>
+                  <div>
+                    <img class="h-w" 
+                        src="https://secure-images.nike.com/is/image/DotCom/DZ0604_340?align=0,1&cropN=0,0,0,0&resMode=sharp&bgc=f5f5f5&wid=150&fmt=jpg"
+                     alt="error"/>
+                </div>
+                <div>
+                      <div><p>Jordan Flight Essentials</p></div>
+                        <div><p>Men's Oversized T-Shirt</p></div>
+                        <div><p>Sky J Light Olive</p></div>
+                        <div><p>Size7</p></div>
+                        <div><p>Quantity1</p></div>
+
+                </div>
+                     <div><p>MRP: Original price₹ 2 495.00</p></div>         
+                  </div>
+            </div>
+
+            <div id="Cart-2">
+                <div>
+                  <div><p>Summary</p></div>
+                   <div>
+                       <div><div><p>Subtotal</p><p></p></div>
+                       <div><p> Estimated Delivery & Handling</p></div>
+                       <div><p>Total</p></div>
+                       </div>
+                       <div class="m-l">
+                        <div><p>₹ 7 490.00</p><p></p></div>
+                        <div><p> ₹ 1 250.00</p></div>
+                        <div><p>₹ 8 740.00</p></div>
+                        
+                       </div>
+                   </div>
+                   
+                  <div>
+                        <div><button>Guest Checkout Member </button></div>
+                        <div><button>Member Checkout</button></div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
