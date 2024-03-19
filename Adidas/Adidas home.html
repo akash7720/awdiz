@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .h-w{
+            height: 100%; width: 100%;
+        }
+        #home1{
+            /* border: 5px solid red; */
+            height: 3227px;
+            width: 100%;
+            font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+        }
+        #nav1{
+            /* border: 5px solid blue; */
+            height: 25px;
+            background-color: black;
+            color: white;
+            font-size: 10px;
+            text-align: center;
+            padding-top: 9px;
+           font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+           font-weight: bold;
+        }
+        #nav2{
+            border: 5px solid green;
+            height: 50px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #nav2>:nth-child(1){
+            border: 5px solid purple;
+            width: 27%;
+           
+        }
+        #img1>img{
+            height: 55px;
+            width: 60px;
+         
+        }
+        #nav2>:nth-child(2){
+            border: 5px solid purple;
+            width: 40%;
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 13px;
+            padding-top: 10px;
+        }
+        
+        #nav2>:nth-child(3){
+            border: 5px solid purple;
+            width: 27%;
+            padding-top: 10px;
+           
+        }
+        #nav3{
+            border: 5px solid green;
+            height: 30px;
+            text-align: center;
+            font-weight: bold;
+            padding-top: 8px;
+        }
+        #Bg1{
+            border: 5px solid purple;
+            height: 500px;
+            width:100%; background-size: 100% 100%;
+           background-image: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/ss24_yeezy_hp_mh_boost_350_v2_steel_grey_d_2da0d804db.png);
+        }
+        #Bg1>:nth-child(1){
+            /* border: 5px solid red; */
+            width: 22%;
+            padding-top: 25%;
+            margin-left: 90px;
+           
+        }
+        #Bg1>:nth-child(1)>p{
+            font-size: 29px;
+            font-weight: bold;
+        }
+        #Bg1>:nth-child(1)>button{
+            margin-top: 35px;
+            height: 35px;
+            width: 150px;
+            background-color: black;
+            color: white;
+        }
+        #Bg1>:nth-child(1)>button:hover{
+            color: rgb(131, 65, 17);
+        }
+        #Runners{
+            /* border: 5px solid gray; */
+          background-image: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/running_ss24_supernova_global_launch_m_glp_masthead_d_a278d529da.jpg);
+          width:100%;  height: 540px;
+          background-size: 100% 100%;
+          
+        }
+        #Runners>div{
+            /* border: 5px solid red; */
+            color: white;
+            width: 30%;
+            padding-top: 28%;
+            font-weight: bold;
+            margin-left: 7%;
+        }
+        #Runners>div:nth-child(1)>p{
+            font-size: 32px;
+        }
+        #Runners>div>div:nth-child(2)>p{
+            font-size: 13px;
+            padding-top: 10px;
+        }
+        #Runners>div>button{
+            height: 35px;
+            width: 150px;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        #Popular-right{
+            /* border: 5px solid blue; */
+            height: 320px ;
+            width: 85%;
+            margin: auto;
+            margin-top: 20px;
+
+        }
+        #Popular-right>div:nth-child(1){
+            /* border: 5px solid greenyellow; */
+            font-size: 23px;
+            font-weight: bold;
+            margin-top: 10px;
+           
+        }
+        #Text1{
+             /* border: 5px solid gold; */
+             margin-top: 30px;
+        }
+        #Text1>div:nth-child(1){
+             /* border: 5px solid rebeccapurple; */
+             height: 40px;
+             margin-top:35px ;
+             display: flex;
+             justify-content: space-evenly;
+        }
+        #Text1>div:nth-child(1)>div{
+            /* border: 5px solid green; */
+            height: 30px;
+            width: 30%;
+            font-size: 30px;
+            font-weight: bold;
+            padding-bottom: 5px;
+            border-bottom: 1px solid black;
+           
+        }
+        #Text1>div:nth-child(1)>div:hover{
+            border-bottom: 7px solid black;
+        }
+        #Text1>div:nth-child(2){
+            /* border: 5px solid pink; */
+            margin-top: 35px;
+            display: flex;
+            justify-content: space-evenly;
+            height: 40px;
+            
+        }
+        #Text1>div:nth-child(2)>div{
+            /* border: 5px solid gray; */
+            height: 30px;
+            width: 30%;
+            font-size: 30px;
+            font-weight: bold;
+            padding-bottom: 5px;
+            border-bottom: 1px solid black ;
+        }
+        #Text1>div:nth-child(2)>div:hover{
+            border-bottom: 7px solid black;
+        }
+        #button1{
+            /* border: 5px solid green; */
+            margin-top: 75px;
+            display: flex;
+            justify-content: space-around;
+            width: 23%;
+            margin-left: 10px;
+            
+        }
+        #button1>div:nth-child(1)>button{
+              background-color: black;
+              color: white;
+              height: 35px;
+              width: 100px;
+              font-size: 13px;
+        }
+        #button1>div:nth-child(2)>button{
+            height: 35px;
+              width: 100px;
+              font-weight: bold;
+              font-size: 13px;
+        }
+        #button1>div:nth-child(2)>button:hover{
+            background-color: black;
+            color: white;
+        }
+        #text2{
+            /* border: 5px solid red; */
+            height: 310px;
+            width: 85%;
+            margin: auto;
+            display: flex;
+            justify-content: space-around;
+            font-size: 13px;
+            
+        }
+        #text2>div{
+            /* border: 5px solid blue; */
+            height: 300px;
+            width: 23%;
+            line-height: 17px;
+
+        }
+        #text2>div:hover{
+         border: 1px solid black;
+        } 
+     #Text3{
+        /* border: 5px solid green; */
+        height: 410px;
+        width: 85%;
+        margin: auto;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+
+     }
+     #Text3>div{
+        /* border: 5px solid red; */
+        width: 24%;
+     }
+     #Text3>div>div:nth-child(1){
+        height: 320px;
+        /* border: 5px solid  yellow; */
+     }
+     #Text3>div>div:nth-child(2)>p{
+        margin-top: 10px;
+        font-size: 12px;
+        line-height: 10px;
+     }
+     #Text3>div>div:nth-child(3)>button{
+        height: 20px;
+        width: 100px;
+        margin-top: 15px;
+        font-size: 10px;
+        border: none;
+        font-size: 12px;
+     }
+     #Text3>div>div:nth-child(3)>button:hover{
+            background-color: black;
+            color: white;
+            
+     }
+     #footer{
+        /* border: 5px solid green; */
+        height: 400px;
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(227, 227, 210);
+
+     }
+    #footer>div{
+        /* border: 5px solid pink; */
+        height: 330px;
+        width: 85%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }  
+    #footer>div>div{
+        /* border: 5px solid red; */
+        width: 49% ;
+       
+
+    }
+    #footer>div>div>div:nth-child(1)>p{
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+    #footer>div>div>div:nth-child(2)>p{
+        font-size: 13px;
+        margin-top: 15px;
+    }
+    #footer>div>div>div:nth-child(3)>p{
+        font-size: 13px;
+        margin-top: 15px;
+    }
+    #getOff{
+         /* border: 5px solid green; */
+         height: 100px;
+         background-color: yellow;
+        
+    }
+    #getOff>div{
+        /* border: 5px solid red; */
+        width:55%;      
+        margin: auto;
+        padding-top: 20px;
+        display: flex;
+       justify-content: space-around;
+       font-weight: bold;
+       font-size: 25px;
+    }
+    #getOff>div>div:nth-child(2)>button{
+        background-color: black;
+        color: white;
+        height: 35px;
+        width: 170px;
+    }
+
+    #footer2{
+         /* border: 5px solid rebeccapurple; */
+         height: 250px;
+         width: 75%;
+         margin: auto;
+         margin-top: 30px;
+         
+    }
+    #footer2>div{
+           /* border: 5px solid gold; */
+           width: 90%;
+           margin-top: 20px;
+           margin: auto;
+           display: flex;
+           justify-content: space-between;
+    }
+   
+    #footer2>div>div:nth-child(1)>p{
+        margin-bottom: 10px;
+        font-size: 15px;
+        font-weight: bold;
+       
+    }
+    #footer2>div>div>div:nth-child(1)>p{
+        margin-bottom: 10px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+   
+    #footer2>div>div>div:nth-child(2)>p{
+    /* border: 5px solid red; */
+        font-size: 12px;
+       line-height: 18px;
+    }
+    #FOOTER{
+        padding-top: 20px;
+        /* border: 5px solid red; */
+        width: 100%;
+        height: 100px;
+        background-color:rgb(57, 55, 55);
+        color: white;
+        font-size:10px;
+        text-align: center;
+        
+    }
+
+    </style>
+</head>
+<body>
+    <div id="home1">
+        <div id="nav1">
+             <p>UPI & NET BANKING AVAILABLE</p>
+        </div>
+
+        <div  id="nav2">
+             <div id="img1">
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFjhrEOc4EBCA_BOwkXLIi8TbUq0MzOYmSG2ol0JhJU6jbtO4YJtQULilBCuFextjjUhQ&usqp=CAU" alt="error">
+             </div>
+
+             <div>
+                 <p>MAN</p>
+                 <P>WOMAN</P> 
+                 <P>KIDS</P> 
+                 <P>SPORTS</P>     
+                 <P>BRANDS</P>
+                 <P>LIFESTYLE</P>
+                 <P>OUTLET</P>
+            </div>
+
+             <div>
+                <div><input type="text" placeholder="Search.." name="search" size="10px"></div>
+                <div>
+                    <!-- <img src="data:image/png;base64,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"
+                     alt="error" class="h-w"> -->
+                 </div>
+             </div>
+             
+        </div>
+
+        <div id="nav3">
+            <p>ADIDAS: THE BRAND WITH THE 3-STRIPES</p>
+        </div>
+
+        <div id="Bg1">
+              <div>
+                <p>YEEZY BOOST 350 V2 STEEL GREY</p>
+                <button>Shop Now ></button>
+            </div>
+        </div>
+
+        <div id="Runners">
+              <div>
+                    <p>SUPERCOMFORT. SUPERNOVA.</p>
+                    <div><p>Experience maximum comfort with the new Supernova.</p></div>
+                    <button>Shop Now ></button>
+              </div>
+        </div>
+
+        <div id="Popular-right">
+              <div>
+                <p>Popular right now</p>
+              </div>
+            
+              <div id="Text1">
+                   <div>
+                        <div><p>samba</p></div>
+                        <div><p>running shoes men</p></div>
+                        <div><p>nmd</p></div>
+                   </div>
+
+                   <div>
+                        <div><p>backpack</p></div>
+                        <div><p>men sandals</p></div>
+                        <div><p>bag</p></div>
+                   </div>
+
+                   <div id="button1">
+                         <div>
+                           <button>New arrivals</button>
+                        </div>
+                        <div> <button> Best of adidas</button></div>
+                   </div>
+              </div>
+        </div> 
+        
+        
+        <div id="text2"> 
+             <div>
+                  <div><img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/616b72929b5e4eb4ae8743a26f376f52_9366/Superstar_Mule_Shoes_Black_IG8277_01_standard.jpg"
+                     alt="error" class="h-w"></div>
+                  <div><p>₹6 999.00</p>
+                    <p> Superstar Mule Shoes</p>
+                    <p>Shoes</p>
+                </div>
+             </div>
+             <div>
+                  <div><img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/1cdfa71c9bae419bb3f3899ce995aa97_9366/Streetball_III_Shoes_Black_IG6104_01_standard.jpg"
+                     alt="error" class="h-w"></div>
+                     <div>
+                        <p>₹13 999.0</p>
+                       <p> Streetball III Shoes</p>
+                        <p>Shoes</p>
+                     </div>
+             </div>
+             <div>
+                <div><img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/e5137506ea88456797cc67b5fc25bbf0_9366/Ozgaia_Shoes_White_IG6044_01_standard.jpg" 
+                    alt="error" class="h-w"></div>
+                    <div>
+                        <p> Ozgaia Shoes</p>
+                        <p>₹8 999.00</p>
+                        <p>  Shoes</p>
+                    </div>
+             </div>
+             <div>
+                 <div><img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/edc22517c3b847e2a6ce44fc64bf47ff_9366/Forum_Mod_Low_Shoes_Red_IG3766_01_standard.jpg"
+                     alt="erroe" class="h-w"></div>
+                <div>
+                <p>Rivalry Low Shoes </p>
+                <p>₹8 999.00</p>
+                <p> Shoes</p>
+             </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="Text3">
+             <div>
+                  <div><img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_400,w_400/em_in_foga_hype_basketball_ss24_launch_hp_card_d_120774ed50.jpg" 
+                    alt="error" class="h-w"></div>
+                    <div>
+                        <p>Fear of God Athletics</p>
+                         <p>Available Now.</p>
+                    </div>
+                    <div><button>Shop Now</button></div>
+             </div>
+
+             <div>
+                <div> <video src="https://videos.adidas.com/video/upload/if_w_gt_400,w_400/adidas_ss24_zne_sustain_glpm_tc_d_cd61c0d263.mp4" 
+                    alt="error" class="h-w"></div>
+                    <div>
+                        <p>adidas Z.N.E. In the moment.</p>
+                        <p> Own your fit and block out all the distractions.</p>
+                    </div>
+                    <div><button>Shop Now</button></div>
+             </div>
+
+             <div>
+                <div><img src="https://brand.assets.adidas.com/image/upload/f_gif,fl_lossy,q_auto/originals_ss24_adicolor_lavender_hp_tcc_d_ccbe0ec415.gif" 
+                    alt="error" class="h-w"></div>
+                    <div>
+                        <p>An adicolor story </p>
+                        <p>Check out the collection!</p>
+                    </div>
+                    <div><button>Shop Now</button></div>
+             </div>
+
+             <div> 
+                <div><img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_400,w_400/em_in_you_got_this_brand_ss24_hp_tc_d_bda6c6a75b.jpg" 
+                    alt="error" class="h-w"></div>
+                    <div>
+                         <p>YOU GOT THIS</p>
+                         <p>When you play sport on your own term.</p>
+                    </div>
+                    <div>
+                     <button>EXPLORE MORE</button></div>
+             </div>
+        </div>
+
+
+        <div id="footer">
+              <div>
+                  <div>
+                      <div><p>STORIES, STYLES AND SPORTSWEAR AT ADIDAS, SINCE 1949</p></div>
+                      <div><p>Sport keeps us fit. Keeps you mindful. Brings us together. Through sport we have the power to change lives. Whether it is through stories of inspiring athletes. Helping you to get up and get moving. Sportswear featuring the latest technologies, to up your performance. Beat your PB. adidas offers a home to the runner, the basketball player, the soccer kid, the fitness enthusiast. The weekend hiker that loves to escape the city. The yoga teacher that spreads the moves. The 3-Stripes are seen in the music scene. On stage, at festivals. Our sports clothing keeps you focused before that whistle blows. During the race. And at the finish lines. We’re here to support creators. Improve their game. Their lives. And change the world.</p></div>
+                      <div><p>adidas is about more than sportswear and workout clothes. We partner with the best in the industry to co-create. This way we offer our fans the sports apparel and style that match their athletic needs, while keeping sustainability in mind. We’re here to support creators. Improve their game. Create change. And we think about the impact we have on our world.</p></div>
+                  </div>
+
+                  <div>
+                    <div><p>STORIES, STYLES AND SPORTSWEAR AT ADIDAS, SINCE 1949</p></div>
+                    <div><p>Sport keeps us fit. Keeps you mindful. Brings us together. Through sport we have the power to change lives. Whether it is through stories of inspiring athletes. Helping you to get up and get moving. Sportswear featuring the latest technologies, to up your performance. Beat your PB. adidas offers a home to the runner, the basketball player, the soccer kid, the fitness enthusiast. The weekend hiker that loves to escape the city. The yoga teacher that spreads the moves. The 3-Stripes are seen in the music scene. On stage, at festivals. Our sports clothing keeps you focused before that whistle blows. During the race. And at the finish lines. We’re here to support creators. Improve their game. Their lives. And change the world.</p></div>
+                    <div><p>adidas is about more than sportswear and workout clothes. We partner with the best in the industry to co-create. This way we offer our fans the sports apparel and style that match their athletic needs, while keeping sustainability in mind. We’re here to support creators. Improve their game. Create change. And we think about the impact we have on our world.</p></div>
+                  </div>
+              </div>
+        </div>
+
+
+        <div id="getOff">
+             <div>
+                <p>JOIN ADIDAS AND GET 15% OFF</p>
+                <div><button>SIGN UP FOR FREE </button></div>
+            </div>
+        </div>
+
+
+        <div id="footer2">
+              <div>
+                    <div>
+                      <p>PRODUCTS</p>
+                    <div>
+                        <p>Footwear</p>
+                       <p>Clothing</p>
+                       <p>Accessories</p>
+                       <p> Outlet – Sale</p>
+                       <p>New Arrivals</p>
+                       <p>Special Offer</p>
+                       <p>Flat 50% Off!</p>
+                    </div>
+                </div>
+
+                 <div>
+                     <div> <p>SPORTS</p></div>
+                     <div>
+                        <p> Cricket</p>
+                        <p>Running</p>
+                        <p>Football</p>
+                        <p> Outlet – Sale</p>
+                        <p>Gym/Training</p>
+                        <p>Outdoor</p>
+                        <p>Basketball</p>
+                        <p>Swimming</p>
+                        <p>Skateboarding</p>
+                    </div>
+                 </div>
+
+                 <div>
+                     <div><p>COLLECTIONS</p></div>
+                     <div>
+                        <p>Ultraboost
+                        <p>Superstar</p>
+                        <p>NMD</p>
+                        <p>Stan Smith</p>
+                        <p> Sustainability </p>
+                        <p>Predator</p>
+                        <p>Parley</p>
+                        <p>adicolor</p>
+                       </div>
+                 </div>
+
+                 <div>
+                      <div><p>SUPPORT</p></div>
+                      <div>
+                          <p>adsf</p>
+                          <p>Ultraboost
+                          <p>Superstar</p>
+                          <p>NMD</p>
+                          <p>Stan Smith</p>
+                          <p> Sustainability </p>
+                          <p>Predator</p>
+                          <p>Parley</p>
+                          <p>adicolor</p>
+                          
+                      </div>
+                 </div>
+                 <div>
+                    <div><p>COMPANY INFO</p></div>
+                    <div>
+                        <p>adsf</p>
+                        <p>Ultraboost
+                        <p>Superstar</p>
+                        <p>NMD</p>
+                        <p>Stan Smith</p>
+                        <p> Sustainability </p>
+                        <p>Predator</p>
+                        <p>Parley</p>
+                        <p>adicolor</p>
+                        
+                    </div>
+                 </div>
+              </div>
+              
+        </div>
+
+
+        <div id="FOOTER">
+              <p> Privacy Policy |
+                 Terms and Conditions |
+               Cookies </p>
+        </div>
+    </div>
+</body>
+</html>
